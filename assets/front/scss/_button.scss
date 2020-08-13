@@ -1,0 +1,102 @@
+/* Main Button Area css
+============================================================================================ */
+.main_btn{
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 50px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 48px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $baseColor;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+.main_btn2{
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 32px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 38px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $baseColor;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+.submit_btn{
+	width: auto;
+	display: inline-block;
+	background: $baseColor;
+	padding: 0px 50px;
+	color: #fff;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 50px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $baseColor;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+
+.white_bg_btn{
+	display: inline-block;
+	background: #f9f9ff;
+	padding: 0px 35px;
+	color: $dip;
+	font-family: $rob;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 34px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	cursor: pointer;
+	@include transition;
+	&:hover{
+		background: $baseColor;
+		color: #fff;
+		border-color: $baseColor;
+	}
+}
+.gad_btn{
+	background: $baseColor;
+	color: #fff;
+	display: inline-block;
+	padding: 0px 20px;
+	line-height: 30px;
+	border-radius: 15px;
+	font-size: 12px;
+	font-weight: 500;
+	font-family: $rob;
+}
+/* End Main Button Area css
+============================================================================================ */

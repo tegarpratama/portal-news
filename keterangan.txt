@@ -1,0 +1,4 @@
+Administrator : add /admin in the last url
+
+username: admin@admin.com
+password: password

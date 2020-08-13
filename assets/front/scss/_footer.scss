@@ -1,0 +1,226 @@
+/*============== footer-area css ===============*/
+.footer-area{
+    background: #04091e;
+	padding-top: 100px;
+}
+.ab_widgets{
+	img{
+		margin-bottom: 25px;
+	}
+}
+.f_title{
+	background: #161a29;
+	border-left: 3px solid $baseColor;
+	margin-bottom: 30px;
+	h3{
+		padding-left: 15px;
+		font-size: 18px;
+		font-family: $rob;
+		font-weight: 500;
+		color: #fff;
+		line-height: 40px;
+	}
+}
+.f_widgets_inner{
+	padding-bottom: 100px;
+}
+.m_news_widgets{
+	.m_news{
+		.media{
+			margin-bottom: 25px;
+			.d-flex{
+				padding-right: 20px;
+			}
+			.media-body{
+				h4{
+					color: #fff;
+					font-size: 14px;
+					line-height: 22px;
+					@include transition;
+					&:hover{
+						color: $baseColor;
+					}
+				}
+				.date{
+					margin-bottom: 0px;
+					a{
+						margin: 0px;
+						&:last-child{
+							float: right;
+						}
+					}
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.single-footer-widget{
+    p{
+        margin-bottom: 0px;
+		color: $pfont;
+		max-width: 325px;
+    }
+    ul{
+        li{
+			margin-bottom: 12px;
+            a{
+                line-height: 25px;
+                display: inline-block;
+                color: #777;
+                transition: all 0.3s linear;
+                &:hover{
+                    color: $baseColor;
+                }
+            }
+			&:last-child{
+				margin-bottom: 0px;
+			}
+        }
+    }
+    .instafeed{
+        margin-left: -5px;
+        margin-right: -5px;
+        li{
+            margin: 5px;
+        }
+    }
+    .subscribe_form{
+        padding-top: 25px;
+    }
+	.input-group{
+		display: block !important;
+	}
+    input{
+        width: 100%;
+        border: 1px solid #333333;
+        font-size: 13px;
+        line-height: 30px;
+		padding-right: 40px;
+		height: 40px;
+        color: #999999;
+        background: transparent;
+        padding-left: 20px;
+        @include placeholder{
+            color: #999999;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+    .sub-btn{
+        background: $baseColor;
+        color: #fff;
+        font-weight: 300;
+        border-radius: 0;
+        line-height: 34px;
+        padding: 4px 11px 0px;
+        cursor: pointer;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		span{
+			position: relative;
+			top: -1px;
+		}
+    }
+}
+.footer_title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.border_line{
+    width: 100%;
+    height: 1px;
+    background: #333333;
+    margin-top: 30px;
+}
+.f_boder{
+	border-top: 1px solid #333333;
+}
+.footer-bottom{
+    .footer-text{
+		margin-bottom: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+        i{
+            color: $baseColor;
+        }
+        a{
+            color: $baseColor;
+        }
+    }
+    .footer-social{
+        text-align: right;
+        a{
+            font-size: 12px;
+            line-height: 30px;
+            color: #82848f;
+            margin-left: 7px;
+            transition: all 0.3s linear;
+			height: 30px;
+			width: 30px;
+			border: 1px solid #555555;
+			display: inline-block;
+			text-align: center;
+            &:hover{
+                color: #fff;
+				background: #4f63a0;
+				border-color: #4f63a0;
+            }
+			&:nth-child(2){
+				&:hover{
+					background: #6fc9ff;
+					border-color: #6fc9ff;
+				}
+			}
+			&:nth-child(3){
+				&:hover{
+					background: #ff1857;
+					border-color: #ff1857;
+				}
+			}
+			&:nth-child(4){
+				&:hover{
+					background: #c2141f;
+					border-color: #c2141f;
+				}
+			}
+			&:nth-child(5){
+				&:hover{
+					background: #ef7100;
+					border-color: #ef7100;
+				}
+			}
+        }
+    }
+}
+
+
+.f_social_wd{
+	p{
+		font-size: 14px;
+		color: $pfont;
+		margin-bottom: 15px;
+	}
+	.f_social{
+		a{
+			font-size: 14px;
+            color: #cccccc;
+            transition: all 0.3s linear;
+			margin-right: 20px;
+            &:hover{
+                color: $baseColor;
+            }
+			&:last-child{
+				margin-right: 0px;
+			}
+		}
+	}
+}

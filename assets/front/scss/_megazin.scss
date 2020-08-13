@@ -1,0 +1,333 @@
+/* choice Area css
+============================================================================================ */
+.choice_inner{
+	margin-bottom: -30px;
+}
+.choice_item{
+	margin-bottom: 30px;
+	.choice_text{
+		margin-top: 20px;
+		
+		h4{
+			font-size: 18px;
+			line-height: 27px;
+			color: $dip;
+			font-family: $rob;
+			font-weight: 500;
+			margin-bottom: 15px;
+			@include transition;
+			&:hover{
+				color: $baseColor;
+			}
+		}
+		p{
+			margin-bottom: 0px;	
+		}
+	}
+}
+.choice_text{
+	margin-top: 20px;
+
+	h4{
+		font-size: 18px;
+		line-height: 27px;
+		color: $dip;
+		font-family: $rob;
+		font-weight: 500;
+		margin-bottom: 15px;
+		@include transition;
+		&:hover{
+			color: $baseColor;
+		}
+	}
+	p{
+		margin-bottom: 0px;	
+	}
+}
+.small{
+	.choice_text{
+		h4{
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+}
+.date{
+	margin-bottom: 15px;
+	.gad_btn{
+		color: #fff;
+	}
+	a{
+		color: $pfont;
+		font-size: 12px;
+		font-family: $open;
+		margin-right: 15px;
+		i{
+			padding-right: 8px;
+		}
+		&:last-child{
+			margin-right: 0px;
+		}
+	}
+}
+
+
+
+/* End choice Area css
+============================================================================================ */
+
+/* Latest News Area css
+============================================================================================ */
+.latest_news{
+	.media{
+		margin-bottom: 30px;
+		.d-flex{
+			padding-right: 30px;
+		}
+		.media-body{
+			
+		}
+		&:last-child{
+			margin-bottom: 0px;
+		}
+	}
+}
+.tavel_food{
+	
+}
+.wedding_megazin{
+	margin-bottom: -30px;
+}
+
+
+
+
+/* End Latest News Area css
+============================================================================================ */
+
+/* Megazin Sidebar Area css
+============================================================================================ */
+.right_sidebar{
+	
+}
+.r_widgets{
+	margin-bottom: 40px;
+	&:last-child{
+		margin-bottom: 0px;
+	}
+}
+.news_widgets{
+	.news_slider{
+		.choice_item{
+			margin-bottom: 0px;
+			.choice_text{
+				.date{
+					margin-bottom: 0px;
+				}
+				h4{
+					font-size: 14px;
+					line-height: 24px;
+				}
+			}
+		}
+		.owl-dots{
+			text-align: center;
+			margin-top: 35px;
+			.owl-dot{
+				height: 14px;
+				width: 14px;
+				background: #f9f9ff;
+				display: inline-block;
+				margin-right: 10px;
+				&:last-child{
+					margin-right: 0px;
+				}
+				&.active{
+					background: $baseColor;
+				}
+			}
+		}
+	}
+}
+
+.social_widgets{
+	.list{
+		li{
+			margin-bottom: 10px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			a{
+				overflow: hidden;
+				border: 1px solid #eeeeee;
+				display: block;
+				padding: 5px;
+				font-size: 14px;
+				font-family: $rob;
+				font-weight: 500;
+				color: $dip;
+				i{
+					height: 24px;
+					width: 24px;
+					background: #4f63a0;
+					color: #fff;
+					text-align: center;
+					line-height: 24px;
+					font-size: 12px;
+					margin-right: 20px;
+					position: relative;
+					&:after{
+						content: "";
+						height: 16px;
+						width: 1px;
+						background: #eeeeee;
+						position: absolute;
+						right: -12px;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+					&.fa-twitter{
+						background: #6fc9ff; 
+					}
+					&.fa-youtube-play{
+						background: #c30512; 
+					}
+					&.fa-vimeo{
+						background: #5aa4eb; 
+					}
+					&.fa-pinterest{
+						background: #c2141f; 
+					}
+					&.fa-rss{
+						background: #ef7100; 
+					}
+				}
+				span{
+					float: right;
+					position: relative;
+					&:after{
+						content: "";
+						height: 16px;
+						width: 1px;
+						background: #eeeeee;
+						position: absolute;
+						left: -12px;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+			}
+		}
+	}
+}
+
+.newsleter_widgets{
+	text-align: center;
+	.nsl_inner{
+		border: 1px solid #eeeeee;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 30px;
+		border-top: 3px solid $baseColor;
+		i{
+			width: 60px;
+			height: 60px;
+			background: $baseColor;
+			color: #fff;
+			line-height: 60px;
+			font-size: 24px;
+			margin-bottom: 30px;
+		}
+		h4{
+			color: $dip;
+			font-weight: 500;
+			font-size: 18px;
+			margin-bottom: 15px;
+		}
+	}
+	p{
+
+	}
+	.form-group{
+		margin-bottom: 0px;
+	}
+	.input-group-prepend {
+		margin-right: -1px;
+	}
+	.input-group-text {
+		background: #fff;
+		border-radius: 0px;
+		vertical-align: top;
+		font-size: 12px;
+		line-height: 36px;
+		padding: 0px 0px 0px 15px;
+		border: 1px solid #eeeeee;
+		border-right: 0px;
+	}
+	.form-control{
+		font-size: 12px;
+		line-height: 24px;
+		color: #cccccc;
+		border: 1px solid #eeeeee;
+		border-radius: 0px;
+		@include placeholder{
+			color: #cccccc;
+		}
+		&:focus{
+			outline: none;
+			box-shadow: none;
+		}
+	}
+	.bbtns{
+		background: $baseColor;
+		color: #fff;
+		font-size: 12px;
+		line-height: 38px;
+		display: inline-block;
+		font-weight: 500;
+		padding: 0px 24px 0px 24px;
+		border-radius: 0;
+	}
+	.text-bottom{
+		font-size: 12px;
+	}
+}
+
+/* End Megazin Sidebar Area css
+============================================================================================ */
+
+/* Product List Area css
+============================================================================================ */
+.product_list{
+	.media{
+		margin-bottom: 25px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
+		.d-flex{
+			padding-right: 20px;
+		}
+		.media-body{
+			.choice_text{
+				margin-top: 0px;
+				h4{
+					font-size: 14px;
+					line-height: 22px;
+					margin-bottom: 10px;
+				}
+				.date{
+					margin-bottom: 0px;
+					a{
+						margin: 0px;
+						&:last-child{
+							float: right;
+						}
+					}
+				}
+			}
+			
+		}
+	}
+}
+/* End Product List Area css
+============================================================================================ */

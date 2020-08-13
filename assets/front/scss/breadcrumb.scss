@@ -1,0 +1,168 @@
+/* Home Banner Area css
+============================================================================================ */
+.home_banner_area{
+	position: relative;
+	z-index: 1;
+	min-height: 600px;
+	.banner_inner{
+		position: relative;
+		background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+		min-height: 600px;
+		.banner_content{
+			color: #fff;
+			max-width: 480px;
+			margin: auto;
+			.date{
+				margin-bottom: 25px;
+				a{
+					margin-right: 25px;
+					color: #fff;
+					i{
+						padding-right: 10px;
+					}
+				}
+			}
+			p{
+				font-size: 14px;
+				font-family: $rob;
+				margin-bottom: 0px;
+			}
+			h3{
+				color: #fff;
+				font-size: 36px;
+				font-weight: bold;
+				font-family: $rob;
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.carousel{
+		.carousel-indicators{
+			bottom: -140px;
+			z-index: 20;
+			li{
+				height: 14px;
+				width: 14px;
+				background: rgba(249, 249, 255, .25);
+				cursor: pointer;
+				&.active{
+					background: $baseColor;
+				}
+			}
+		}
+	}
+}
+
+.blog_banner{
+	min-height: 780px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: 0px;
+	.banner_inner{
+		background: #04091e;
+		position: relative; 
+		overflow: hidden;
+		width: 100%;
+		min-height: 780px;
+		z-index: 1;
+		.overlay{
+			background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+			opacity: .5;
+			height: 125%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			z-index: -1;
+		}
+		.blog_b_text{
+			max-width: 700px;
+			margin: auto;
+			color: #fff;
+			margin-top: 80px;
+			h2{
+				font-size: 60px;
+				font-weight: 500;
+				font-family: $rob;
+				line-height: 66px;
+				margin-bottom: 15px;
+			}
+			p{
+				font-size: 16px;
+				margin-bottom: 35px;
+			}
+			.white_bg_btn{
+				line-height: 42px;
+				padding: 0px 45px;
+			}
+		}
+	}
+}
+
+.banner_box{
+	max-width: 1620px;
+	margin: auto;
+}
+.banner_area{
+	position: relative;
+	z-index: 1;
+	min-height: 350px;
+	.banner_inner{
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		min-height: 350px;
+		background: #000;
+		z-index: 1;
+		.overlay{
+			background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			height: 125%;
+			bottom: 0;
+			z-index: -1;
+			opacity: 1;
+		}
+		.banner_content{
+			margin-top: 40px;
+			h2{
+				color: #fff;
+				font-size: 48px;
+				font-family: $rob;
+				font-weight: 500;
+			}
+			.page_link{
+				a{
+					font-size: 14px;
+					color: #fff;
+					font-family: $rob;
+					margin-right: 32px;
+					position: relative;
+					&:before{
+						content: "\f0da";
+						font: normal normal normal 14px/1 FontAwesome; 
+						position: absolute;
+						right: -25px;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+					&:last-child{
+						margin-right: 0px;
+						&:before{
+							display: none;
+						}	
+					}
+					&:hover{
+						color: $baseColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* End Home Banner Area css
+============================================================================================ */
