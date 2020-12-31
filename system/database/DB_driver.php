@@ -172,7 +172,7 @@ abstract class CI_DB_driver {
 	 *
 	 * @var	bool
 	 */
-	public $db_debug		= FALSE;
+	public $db_debug		= true;
 
 	/**
 	 * Benchmark time

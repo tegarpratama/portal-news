@@ -7,7 +7,8 @@ class Admin_model extends CI_Model {
    
       $query =  $this->db->query("SELECT COUNT(id) as count,MONTHNAME(date) as month_name FROM posting WHERE YEAR(date) = '" . date('Y') . "' GROUP BY YEAR(date),MONTH(date)"); 
  
-      $record = $query->result();
+	$record = $query->result();
+	
       $data = [];
  
       foreach($record as $row) {
