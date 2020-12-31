@@ -16,7 +16,9 @@
 
 # **How to login as admin :** 
 
-1. add to url with "/admin" (http://localhost/projects-codeigniter/ci-portal/admin)
+1. add to url with "/admin" (http://localhost/portal-news/admin)
+
+
 2. Email | password : admin@admin.com | password
 
 
